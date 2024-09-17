@@ -10,7 +10,7 @@ def handler(ctx, data: io.BytesIO = None):
 
     try:
         # TeamsのWebhook URL
-        webhook_url = 'https://prod-23.japaneast.logic.azure.com:443/workflows/b51a61bd4e8b461bac7d817e5bcd2683/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=D4q_a8dLVrthPlACKMo1izgBn73R4UM_1iRKKLlPRIE'
+        webhook_url = '<コピーしたWebhookのURL>'
 
         # 送信するメッセージ
         message = {
